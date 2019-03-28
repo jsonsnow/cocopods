@@ -48,7 +48,10 @@ rvm use 2.4.2 --default
 ```
 sudo gem update --system
 gem sources --remove https://rubygems.org/
-gem sources -a https://gems.ruby-china.org/
+<del> gem sources -a https://gems.ruby-china.org/ </del>
+
+
+目前淘宝源更新为：gem sources -a https://gems.ruby-china.com/
 ```
 8.验证是否更换成功
 
